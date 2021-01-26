@@ -43,7 +43,7 @@ const Card = ({ title, start, end, image }) => {
 
 	useEffect(() => {
 		startTimer()
-	}, [startTimer])
+	})
 
 	return (
 		<div className='card'>
