@@ -16,8 +16,6 @@ const Home = () => {
 			})
 	}, [])
 
-	console.log(auctions)
-
 	return (
 		<div className='card__container'>
 			{auctions.map(({ title, start, end, image }, id) => (
